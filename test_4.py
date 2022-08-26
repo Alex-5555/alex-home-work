@@ -1,6 +1,7 @@
 a = ["a","b","c","d","e","f","j","h"]
 b = ["1","2","3","4","5","6","7","8"]
 a.reverse()
+#print(a)
 for index, line in enumerate(a):
     print(' ')
     if index%2 == 0:
