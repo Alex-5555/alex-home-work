@@ -1,9 +1,0 @@
-desk = [
-    [{"color": "black/white", "figure": "pone/rook/knite/bishop/quin/king"}]
-    [{"color":"", "letter":"", "number": ""}]
-    [{"st": "a/b/c/d/e/f/j/h"}]
-    [{"line": "1/2/3/4/5/6/7/8"}]
-]
-# if index%2 == 0:
-for item in desk:
-    print(item[st])
