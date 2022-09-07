@@ -9,9 +9,9 @@ from unicodedata import name
 
 
 users = [
-    {"name": "Alex", "age": 51},
+    {"name": "Alex", "age": 51, },
     {"name": "Dima", "age": 47},
     {"name": "Alyona", "age": 49}]
-for x in users:
+for user in users:
     # print(x.get("name") + " - " + str(x.get("age")))
-    print(f'{x["name"]} - {x["age"]}')
+    print(f'{user["name"]} - {user["age"]}')
