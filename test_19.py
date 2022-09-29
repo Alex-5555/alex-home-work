@@ -31,5 +31,10 @@ def maxlen(h):
 #print(maxlen(h)) 
 
 '''
-from test_3 import deck
-print(deck())
+from test_3 import deck, deck_s, dial
+a = deck()
+b = deck_s(a)
+c = dial(b,2)
+print(c)
+# print(dial(deck_s(deck())))
+

@@ -19,6 +19,5 @@ while True:
     user = {}
     user["name"] = f
     users.append(user)
-    #users.fromkeys(["name:", "ages:"], "f","g")
     print(users)
      
