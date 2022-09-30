@@ -2,8 +2,18 @@
 
 
 class CanNotJump():
+    h = 'blabla'
     def do(self):
         print('not ka ka ka')
+        print(self.h)
+
+a = CanNotJump()
+a.do()
+b = CanNotJump()
+b.h = '678'
+b.do()
+
+
 
 class CanJump():
     def do(self):
