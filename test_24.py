@@ -1,9 +1,15 @@
-def c():
+from urllib.request import ProxyBasicAuthHandler
+from xml.etree.ElementPath import prepare_descendant
+
+
+def c(f):
     def hh():
-        return 'fdtddg'
-    return hh()
+        preped
+        f()
+        posle
+    return hh
 
 def sss(f):
     return f()
 
-print(sss(c))
+print(sss(c()s))
