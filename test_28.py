@@ -71,10 +71,10 @@ while min(all) > 0:
     d = {}
     for i in set(face_1):
         d[i]=0
-    # print(d)
+        print(d)
     for i in player_1:
         d[i['face']] = d[i['face']] + i['count']
-        # print(d)
+    print(d)
 
     ii = []
     for a in faces:
